@@ -1,6 +1,9 @@
 import tkinter as tk
 from random import choice
 
+user_score = 0
+computer_score = 0
+
 def play_game(player_choice ,root):
     global user_score, computer_score
 
